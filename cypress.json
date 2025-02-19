@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "projectId": "mn6hxz",
+  "responseTimeout": 60000,
+  "requestTimeout": 20000,
+  "videoUploadOnPasses": false,
+  "component": {
+    "componentFolder": "src",
+    "testFiles": "**/*test.{js,jsx,ts,tsx}"
+  }
+}

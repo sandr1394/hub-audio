@@ -1,0 +1,63 @@
+{
+  "content" : [ {
+    "id" : 1731,
+    "callId" : "25877449",
+    "sessionId" : "D46D692B3FD44E34BE2C510E7B62BB90",
+    "ani" : "8666156319",
+    "agentFirstName" : "BGO Tim",
+    "agentLastName" : "Israel",
+    "agentEmail" : "bgo.tisrael@prosper.com",
+    "campaign" : "Outbound TIL Abandonment - Predictive",
+    "dateOfCall" : "2021-08-30T05:06:55.000Z",
+    "callDuration": 27
+  }, {
+    "id" : 1730,
+    "callId" : "25877448",
+    "sessionId" : "2CF5D7B6674845E286CD1D100538CBA4",
+    "ani" : "8666156319",
+    "agentFirstName" : "UNKNOWN",
+    "agentLastName" : "UNKNOWN",
+    "agentEmail" : "UNKNOWN",
+    "campaign" : "Outbound TIL Abandonment - Predictive",
+    "dateOfCall" : "2021-08-30T05:06:54.000Z",
+    "callDuration": 27
+  }, {
+    "id" : 1729,
+    "callId" : "25877447",
+    "sessionId" : "E6D842F2BF7044EFAAF427A1E179D384",
+    "ani" : "8666156319",
+    "agentFirstName" : "UNKNOWN",
+    "agentLastName" : "UNKNOWN",
+    "agentEmail" : "UNKNOWN",
+    "campaign" : "Outbound TIL Abandonment - Predictive",
+    "dateOfCall" : "2021-08-30T05:06:50.000Z",
+    "callDuration": 27
+  }, {
+    "id" : 1728,
+    "callId" : "25877446",
+    "sessionId" : "65BD306D26DE476D88AF773DEFBC8937",
+    "ani" : "8666156319",
+    "agentFirstName" : "UNKNOWN",
+    "agentLastName" : "UNKNOWN",
+    "agentEmail" : "UNKNOWN",
+    "campaign" : "Outbound TIL Abandonment - Predictive",
+    "dateOfCall" : "2021-08-30T05:06:49.000Z",
+    "callDuration": 27
+  }, {
+    "id" : 1727,
+    "callId" : "25877445",
+    "sessionId" : "0E14530BEAE648BA924AA55F2F1C5FF4",
+    "ani" : "8666156319",
+    "agentFirstName" : "UNKNOWN",
+    "agentLastName" : "UNKNOWN",
+    "agentEmail" : "UNKNOWN",
+    "campaign" : "Outbound TIL Abandonment - Predictive",
+    "dateOfCall" : "2021-08-30T05:06:47.000Z",
+    "callDuration": 27
+  } ],
+  "page" : {
+    "total" : 253,
+    "size" : 5,
+    "page" : 1
+  }
+}

@@ -1,0 +1,85 @@
+plugins {
+    id 'java-library'
+    id "io.freefair.lombok" version "5.3.0"
+    id 'com.prosper.platform.spring-boot' version "${springBootBaseVersion}" apply false
+    id 'com.jfrog.artifactory' version "${jfrogVersion}"
+}
+
+jar {
+    enabled = false
+}
+
+allprojects {
+    apply plugin: 'idea'
+    apply plugin: 'com.jfrog.artifactory'
+    apply plugin: 'maven-publish'
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_15
+        targetCompatibility = JavaVersion.VERSION_15
+        withSourcesJar()
+    }
+
+    repositories {
+        mavenLocal()
+        maven {
+            url "https://artifactory.prosper.com/artifactory/platform-local"
+            metadataSources {
+                gradleMetadata()
+                mavenPom()
+                artifact()
+            }
+        }
+    }
+    artifactory {
+        //The base Artifactory URL if not overridden by the publisher/resolver
+        contextUrl = "https://artifactory.prosper.com/artifactory"
+        publish {
+            repository {
+                repoKey = "libs-release-local"
+                username = project.artifactoryUsername
+                password = project.artifactoryPassword
+                maven = true
+            }
+            defaults {
+                // Reference to Gradle publications defined in the build script.
+                // This is how we tell the Artifactory Plugin which artifacts should be
+                // published to Artifactory.
+                publications('mavenJava')
+                publishArtifacts = true
+                publishPom = true // Publish generated POM files to Artifactory (true by default)
+            }
+        }
+    }
+}
+
+
+subprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'maven'
+    apply plugin: 'com.prosper.platform.spring-boot'
+
+    dependencies {
+        implementation("com.prosper.platform:spring-boot-base-models:${springBootBaseVersion}")
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_15
+        targetCompatibility = JavaVersion.VERSION_15
+        withSourcesJar()
+    }
+
+    test {
+        description = 'Runs JUnit tests.'
+        useJUnit()
+
+        afterTest { descriptor, result ->
+            logger.lifecycle("Executed JUnit ${descriptor} with result: ${result.resultType}")
+        }
+
+        testLogging {
+            showStackTraces = true
+            exceptionFormat = "full"
+        }
+    }
+}

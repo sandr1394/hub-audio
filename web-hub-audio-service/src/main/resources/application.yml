@@ -1,0 +1,62 @@
+server:
+  port: 9095
+  max-http-header-size: 40KB
+  servlet:
+    context-path: /audio
+    max-http-header-size: 40KB
+
+spring:
+  application:
+    name: web-hub-audio
+  jpa:
+    properties:
+      hibernate.order_inserts: true
+      hibernate.connection.defaultNChar: true
+
+hub-audio-service:
+  audio-encoding:
+    threads-core-pool-size: 1
+    threads-max-pool-size: 4
+    process-timeout-seconds: 15
+    encoder-path: /usr/bin/ffmpeg
+    bitrate: 16k
+    samplerate: 8000
+    format: mp3
+  databases:
+    audio-log:
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      database-name: AudioLog
+      dialect: org.hibernate.dialect.SQLServer2012Dialect # Set the correct dialect/version of the db
+      persistence-name: audioDataMigratorUnit # Simple name to give to the entity manager for code references
+      show-sql: true # Logs the sql sent to the db for each request
+      generate-ddl: false # Don't touch the schema
+      connection-pool-name: audio-log-db-connection-pool # Optional pool name - can help with debugging when multiple pools are used
+
+platform.spring-boot:
+  health-check:
+    perform-health-check-on-startup: false
+  security:
+    unsecured-resources-list: /,/favicon.ico,/static/**,/*,/list/**,/api/v1/filter/five9
+    resource-server:
+      client-id: prosperWebHubAudioMiddleTierProxy
+      client-secret: #override-in-env
+      oauth-host-server: #override-in-env
+  logging:
+    console-logging-enabled: true
+    correlation-id-enabled: true
+  database:
+    migration:
+      admin-sql-files:
+        - classpath:db/changelog/1.init-database/1.create-database.sql
+        - classpath:db/changelog/1.init-database/2.create-users.sql
+      database-name: AudioLog
+      users:
+        manager:
+          username: web_hub_audio_mgr
+        app:
+          username: web_hub_audio_app
+        app-ro:
+          username: web_hub_audio_mgr_app_ro
+
+spring.jpa.show-sql: true
+spring.jpa.properties.hibernate.format_sql: true

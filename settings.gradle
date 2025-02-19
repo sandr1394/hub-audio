@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        maven {
+            url "https://artifactory.prosper.com/artifactory/platform-local"
+        }
+    }
+}
+
+rootProject.name = 'web-hub-audio'
+include 'web-hub-audio-service'
+include 'web-hub-audio-db-scripts'

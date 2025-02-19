@@ -1,0 +1,17 @@
+/**
+ Here we define the common repository configuration that can be re-used across the modules
+ **/
+
+buildscript {
+    repositories {
+        mavenLocal()
+        maven {
+            credentials {
+                username '$repoUser'
+                password '$repoPassword'
+            }
+            url "https://artifactory.prosper.com/artifactory/platform-local"
+        }
+    }
+}
+buildscript.repositories.each { repositories.add(it) }

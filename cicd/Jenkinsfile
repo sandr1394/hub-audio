@@ -1,0 +1,6 @@
+@Library('jenkins-shared-libraries@master') _
+odePipeline([
+    cicd_service_name: "web-hub-audio",
+    cicd_release_env_ode_enabled: "false",
+    cicd_release_env_uat_enabled: "false",
+])

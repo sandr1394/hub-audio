@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/audio/static/css/main.7643bcea.chunk.css",
+    "main.js": "/audio/static/js/main.74da2010.chunk.js",
+    "main.js.map": "/audio/static/js/main.74da2010.chunk.js.map",
+    "runtime-main.js": "/audio/static/js/runtime-main.81ab1432.js",
+    "runtime-main.js.map": "/audio/static/js/runtime-main.81ab1432.js.map",
+    "static/js/2.088f96df.chunk.js": "/audio/static/js/2.088f96df.chunk.js",
+    "static/js/2.088f96df.chunk.js.map": "/audio/static/js/2.088f96df.chunk.js.map",
+    "static/js/3.ef472f47.chunk.js": "/audio/static/js/3.ef472f47.chunk.js",
+    "static/js/3.ef472f47.chunk.js.map": "/audio/static/js/3.ef472f47.chunk.js.map",
+    "index.html": "/audio/index.html",
+    "static/css/main.7643bcea.chunk.css.map": "/audio/static/css/main.7643bcea.chunk.css.map",
+    "static/js/2.088f96df.chunk.js.LICENSE.txt": "/audio/static/js/2.088f96df.chunk.js.LICENSE.txt",
+    "static/media/hub-logo.80d01b07.svg": "/audio/static/media/hub-logo.80d01b07.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81ab1432.js",
+    "static/js/2.088f96df.chunk.js",
+    "static/css/main.7643bcea.chunk.css",
+    "static/js/main.74da2010.chunk.js"
+  ]
+}

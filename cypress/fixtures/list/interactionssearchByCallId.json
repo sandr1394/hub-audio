@@ -1,0 +1,15 @@
+{
+  "content" : [ {
+    "id" : 343,
+    "callId" : "2021042800000047919",
+    "segmentId" : "173cae2265eb22e7dec288e2d0e3955b",
+    "ani" : "19783137000",
+    "dateOfCall" : "2021-04-28T20:30:51.229Z",
+    "callDuration": 27
+  } ],
+  "page" : {
+    "total" : 1,
+    "size" : 25,
+    "page" : 0
+  }
+}
