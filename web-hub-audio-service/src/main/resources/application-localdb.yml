@@ -1,0 +1,9 @@
+platform.spring-boot:
+    database:
+      migration:
+          host: localhost
+          port: 1433
+          users:
+              admin:
+                  username: sa
+                  password: Password23

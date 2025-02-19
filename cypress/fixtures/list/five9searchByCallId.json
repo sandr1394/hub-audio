@@ -1,0 +1,19 @@
+{
+  "content" : [ {
+    "id" : 1570,
+    "callId" : "25888706",
+    "sessionId" : "C9830B6B78A3441291ED06BE68E67C99",
+    "ani" : "8666156319",
+    "agentFirstName" : "Jack",
+    "agentLastName" : "Black",
+    "agentEmail" : "jb@test.com",
+    "campaign" : "Verification Outbound",
+    "dateOfCall" : "2021-08-30T09:47:39.000Z",
+    "callDuration": 27
+  } ],
+  "page" : {
+    "total" : 1,
+    "size" : 25,
+    "page" : 0
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="Alexander Belyaev" id="2" context="migration" >
+        <comment>Create Vendor table</comment>
+        <sqlFile path="schema/1.create-Vendor.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+    </changeSet>
+    <changeSet author="Alexander Belyaev" id="3" context="migration" >
+        <comment>Create AuditAction table</comment>
+        <sqlFile path="schema/2.create-AuditAction.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+    </changeSet>
+    <changeSet author="Alexander Belyaev" id="4" context="migration" >
+        <comment>Create AuditLog table</comment>
+        <sqlFile path="schema/3.create-AuditLog.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+    </changeSet>
+
+</databaseChangeLog>

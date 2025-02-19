@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="Alexander Belyaev" id="1" context="migration" >
+        <comment>Create initial schema</comment>
+        <sqlFile path="schema/1.create-InteractionsCall.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/2.create-AgentGroup.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/3.create-Agent.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/4.create-CampaignType.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/5.create-Campaign.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/6.create-Disposition.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/7.create-Skill.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/8.create-CallType.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/9.create-Five9Call.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+        <sqlFile path="schema/10.create-Five9Segment.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+    </changeSet>
+
+</databaseChangeLog>

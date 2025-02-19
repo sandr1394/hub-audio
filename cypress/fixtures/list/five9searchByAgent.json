@@ -1,0 +1,30 @@
+{
+  "content" : [ {
+    "id" : 1568,
+    "callId" : "25888705",
+    "sessionId" : "2F6267090B254DE69CFECED587BEC58E",
+    "ani" : "7166975331",
+    "agentFirstName" : "CVT Jolisa",
+    "agentLastName" : "Mackie",
+    "agentEmail" : "chernandez@prosper.com",
+    "campaign" : "Verification Outbound",
+    "dateOfCall" : "2021-08-30T09:57:32.000Z",
+    "callDuration": 27
+  }, {
+    "id" : 1569,
+    "callId" : "25888705",
+    "sessionId" : "2F6267090B254DE69CFECED587BEC58E",
+    "ani" : "7166975331",
+    "agentFirstName" : "CVT Jolisa",
+    "agentLastName" : "Mackie",
+    "agentEmail" : "chernandez@prosper.com",
+    "campaign" : "Verification Outbound",
+    "dateOfCall" : "2021-08-30T09:47:35.000Z",
+    "callDuration": 27
+  } ],
+  "page" : {
+    "total" : 2,
+    "size" : 5,
+    "page" : 0
+  }
+}

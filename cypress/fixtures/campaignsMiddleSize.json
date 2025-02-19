@@ -1,0 +1,25 @@
+[ {
+  "id" : 100027,
+  "campaignName" : "Outbound TIL Abandonment - Predictive"
+}, {
+  "id" : 100028,
+  "campaignName" : "Customer Service"
+}, {
+  "id" : 100029,
+  "campaignName" : "Borrower Funnel"
+}, {
+  "id" : 100030,
+  "campaignName" : "Email Marketing Active Offer"
+}, {
+  "id" : 100031,
+  "campaignName" : "Verification"
+}, {
+  "id" : 100032,
+  "campaignName" : "Outbound TIL Abandonment - API Predictive"
+}, {
+  "id" : 100033,
+  "campaignName" : "Verification Outbound"
+}, {
+  "id" : 100034,
+  "campaignName" : "7 Verification Internal Transfer"
+} ]

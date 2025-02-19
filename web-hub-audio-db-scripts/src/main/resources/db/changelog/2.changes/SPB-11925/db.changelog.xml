@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet author="Alexander Belyaev" id="8" context="migration" >
+        <comment>Fix SegmentId from int to bigint</comment>
+        <sqlFile path="data/1.alter-Five9Segment.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+    </changeSet>
+
+    <changeSet author="Alexander Belyaev" id="9" context="migration" >
+        <comment>Create view vFive9CallSegments</comment>
+        <sqlFile path="schema/1.create-vCallSegments.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+    </changeSet>
+
+    <changeSet author="Alexander Belyaev" id="10" context="migration" >
+        <comment>Create index Five9Segment.GcpFileKey</comment>
+        <sqlFile path="data/2.create-GcpFileKeyIndex.sql" relativeToChangelogFile="true" splitStatements="false" stripComments="true"/>
+    </changeSet>
+
+</databaseChangeLog>

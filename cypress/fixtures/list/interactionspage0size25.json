@@ -1,0 +1,183 @@
+{
+  "content" : [ {
+    "id" : 344,
+    "callId" : "2021042800000048406",
+    "segmentId" : "d0b3364b75f44c3c09527e507a825c4a",
+    "ani" : "19783137002",
+    "dateOfCall" : "2021-04-28T20:45:08.051Z",
+    "callDuration": 27
+  }, {
+    "id" : 343,
+    "callId" : "2021042800000047919",
+    "segmentId" : "173cae2265eb22e7dec288e2d0e3955b",
+    "ani" : "19783137000",
+    "dateOfCall" : "2021-04-28T20:30:51.229Z",
+    "callDuration": 27
+  }, {
+    "id" : 342,
+    "callId" : "2021042800000048197",
+    "segmentId" : "52cd4e402640dc0cd89e9769dcb4c3e0",
+    "ani" : "19783137002",
+    "dateOfCall" : "2021-04-28T20:30:08.069Z",
+    "callDuration": 27
+  }, {
+    "id" : 341,
+    "callId" : "2021042800000047904",
+    "segmentId" : "185fb0c6804885c9340030e1deea448a",
+    "ani" : "19783137000",
+    "dateOfCall" : "2021-04-28T20:15:07.303Z",
+    "callDuration": 27
+  }, {
+    "id" : 340,
+    "callId" : "2021042800000046981",
+    "segmentId" : "928423839bf60a37a5652c591ce37d4f",
+    "ani" : "19783137000",
+    "dateOfCall" : "2021-04-28T20:00:08.732Z",
+    "callDuration": 27
+  }, {
+    "id" : 339,
+    "callId" : "2021042800000046708",
+    "segmentId" : "12cb591b09dcfb38b702a604261f99cb",
+    "ani" : "16785910124",
+    "dateOfCall" : "2021-04-28T19:52:57.057Z",
+    "callDuration": 27
+  }, {
+    "id" : 338,
+    "callId" : "2021042800000046525",
+    "segmentId" : "ac6e9830c05c15f4c02789ed0a35c846",
+    "ani" : "19173189644",
+    "dateOfCall" : "2021-04-28T19:50:59.619Z",
+    "callDuration": 27
+  }, {
+    "id" : 337,
+    "callId" : "2021042800000046315",
+    "segmentId" : "70b2a103924695784ee1305d3edb51d1",
+    "ani" : "19783137002",
+    "dateOfCall" : "2021-04-28T19:45:06.927Z",
+    "callDuration": 27
+  }, {
+    "id" : 336,
+    "callId" : "2021042800000046296",
+    "segmentId" : "0e606f82ed5055424f253ee9f5f41b27",
+    "ani" : "16027633255",
+    "dateOfCall" : "2021-04-28T19:45:05.412Z",
+    "callDuration": 27
+  }, {
+    "id" : 335,
+    "callId" : "2021042800000046192",
+    "segmentId" : "cc6a5cf2a468c527c4159c38b8a2984b",
+    "ani" : "13608013287",
+    "dateOfCall" : "2021-04-28T19:44:35.579Z",
+    "callDuration": 27
+  }, {
+    "id" : 334,
+    "callId" : "2021042800000046422",
+    "segmentId" : "2e937ccd1b196864999911810b2850e4",
+    "ani" : "13399277529",
+    "dateOfCall" : "2021-04-28T19:43:31.987Z",
+    "callDuration": 27
+  }, {
+    "id" : 333,
+    "callId" : "2021042800000046043",
+    "segmentId" : "4e411526fb99eec019cdffce1e4bba3f",
+    "ani" : "16823523195",
+    "dateOfCall" : "2021-04-28T19:39:40.159Z",
+    "callDuration": 27
+  }, {
+    "id" : 332,
+    "callId" : "2021042800000045809",
+    "segmentId" : "67342b524e46731285675c670a0f0d05",
+    "ani" : "13474194430",
+    "dateOfCall" : "2021-04-28T19:31:55.536Z",
+    "callDuration": 27
+  }, {
+    "id" : 331,
+    "callId" : "2021042800000045532",
+    "segmentId" : "a749b457e1bc2dafeae69cd043d21a0a",
+    "ani" : "18184864955",
+    "dateOfCall" : "2021-04-28T19:31:08.987Z",
+    "callDuration": 27
+  }, {
+    "id" : 330,
+    "callId" : "2021042800000045651",
+    "segmentId" : "b8f209db78bda7276c5aaad65240d8cb",
+    "ani" : "19783137002",
+    "dateOfCall" : "2021-04-28T19:30:06.997Z",
+    "callDuration": 27
+  }, {
+    "id" : 329,
+    "callId" : "2021042800000045408",
+    "segmentId" : "8b4f88d4f31f0d53d44380a5820ca3cd",
+    "ani" : "16094565991",
+    "dateOfCall" : "2021-04-28T19:27:53.229Z",
+    "callDuration": 27
+  }, {
+    "id" : 328,
+    "callId" : "2021042800000045366",
+    "segmentId" : "145307092fffcd6897bfcf49c8dddc5a",
+    "ani" : "17205275209",
+    "dateOfCall" : "2021-04-28T19:26:40.600Z",
+    "callDuration": 27
+  }, {
+    "id" : 327,
+    "callId" : "2021042800000045234",
+    "segmentId" : "cb9985c6ca4b35e6adc1b502b5523157",
+    "ani" : "15126198797",
+    "dateOfCall" : "2021-04-28T19:23:43.464Z",
+    "callDuration": 27
+  }, {
+    "id" : 326,
+    "callId" : "2021042800000045504",
+    "segmentId" : "e62207ab1d13d19e5724d21347912cf2",
+    "ani" : "13109028129",
+    "dateOfCall" : "2021-04-28T19:22:58.930Z",
+    "callDuration": 27
+  }, {
+    "id" : 325,
+    "callId" : "2021042800000045401",
+    "segmentId" : "3f18c71ec0d05c7353dd9f4a49104593",
+    "ani" : "19783137002",
+    "dateOfCall" : "2021-04-28T19:15:06.924Z",
+    "callDuration": 27
+  }, {
+    "id" : 324,
+    "callId" : "2021042800000045142",
+    "segmentId" : "8a5f6056b2f5374b94bf533789baa0ce",
+    "ani" : "17203188887",
+    "dateOfCall" : "2021-04-28T19:09:09.281Z",
+    "callDuration": 27
+  }, {
+    "id" : 323,
+    "callId" : "2021042800000044302",
+    "segmentId" : "ccec7bf308abeb9868509586cde2b621",
+    "ani" : "19783137002",
+    "dateOfCall" : "2021-04-28T19:00:07.657Z",
+    "callDuration": 27
+  }, {
+    "id" : 322,
+    "callId" : "2021042800000044000",
+    "segmentId" : "c321e3b95fa0d344309235df0f4f581b",
+    "ani" : "19086423970",
+    "dateOfCall" : "2021-04-28T18:56:35.718Z",
+    "callDuration": 27
+  }, {
+    "id" : 321,
+    "callId" : "2021042800000044153",
+    "segmentId" : "af7834d0cd652957ce0819af2497e4ae",
+    "ani" : "12142329786",
+    "dateOfCall" : "2021-04-28T18:54:48.523Z",
+    "callDuration": 27
+  }, {
+    "id" : 320,
+    "callId" : "2021042800000044077",
+    "segmentId" : "31e6c1e35b063eb4c6f5fb7d31346b7c",
+    "ani" : "16013340979",
+    "dateOfCall" : "2021-04-28T18:53:21.595Z",
+    "callDuration": 27
+  } ],
+  "page" : {
+    "total" : 344,
+    "size" : 25,
+    "page" : 0
+  }
+}

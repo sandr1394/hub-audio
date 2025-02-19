@@ -1,0 +1,62 @@
+hub-audio-service:
+  audio-encoding:
+    encoder-path: ffmpeg
+  databases:
+    audio-log:
+      server: qalvdb01.c1.stg
+      port: 1433
+      user-name: web_hub_audio
+      password: Password23
+  google-cloud-storage:
+    interactions-bucket-name: qa-interactions-audio-data
+    five9-bucket-name: qa-five9-audio-data
+platform.spring-boot:
+  health-check:
+    perform-health-check-on-startup: false
+  cache:
+    hosts: api-memcached-qa.lvd1.pspr.co:11211
+  security:
+    enabled: false
+    resource-server:
+      proxy-client-secret: e9b70073cd574083ad89f2f8e73afbc4
+      client-secret: c1247748e8d8420c8caf25b3da030baa
+      oauth-host-server: https://app-qa.lvd1.pspr.co
+      jwt:
+        secret: hubJwtSecret
+        audience: simplicity.qa32.circleone.com/hub
+        enc-key: fGfctjV37dbStFfKXd672kKb8WbmAgee
+        enc-iv-string: 3Jiuihn4bsdF9iD8
+        token-refreshing-enabled: true
+  google-cloud-storage:
+    client-id: 101797376604939312824
+    client-email: svc-qa-data@prosper-nonprod-hub-data.iam.gserviceaccount.com
+    private-key-id: b7a573a8b63c6f1da6890d5b783c92cce7e23825
+    private-key-pkcs8: -----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBW7YudcPuwk9J\nIpu/FmnoZjHTBoVsXxfTjLnDYR7DP4TL159xxTD5N06Dv4nJvZaP/6qbivYGVg2d\n7ebT/MKbC4Wn6M0rSb83XHMDM+1W21m59X7l9g0QZppz7xeovb4ttvySIVydjHyM\nRhZQucrQSlqOp/K5irYj5iWIYrxy+fspSIY6ZPaauvzSYwNO/10gEdRyVH7urtSx\nnyoAyhsnQvVc/5kMrMkgd4DIdO9BkXPHfm9xqROhc/s316mYPjKQAVQN1ZJOgYAW\n7J6nAFeTIO4RspWbVQ97avDqEslpr95Xrrk/kCSnrPL7h3BFeV8Oq2VKlWlwflxZ\nYCU0r+mrAgMBAAECggEABVs8i0Hw6RLR7nU6ekstKOZ31+A03wEtYEtkNADjQMZo\nL9try9OKHUVGdAjg0MljO975w3BQi3Fj1C2seM/mNjRWAgZFdL8IwIhbmUmdeAwA\nitG9r7Imv38QJUkIz0BeXdbVXVj2P1kOdDZW1Oqoryd4Jb6KT1CD5i+wd3xAuzCc\nR0wE+kNTu0XlfHEIwBwPrjwfoe3OXzlPy4Y0z24EfE+5mrYua4TzrTkN+/QzFcFc\ndrHM9q4ZT9VlOKlDvNm1PdaHP8Y5qlA+/N1ZLi0TOtBOA3OPXFGi5LEPFrvtQCE5\nuHZlYSP5l96WJreUTHZMFhxAtHpdE7JOjf3wsjwBHQKBgQDri9ZcGt2XCSxZ1Z8W\nvj9aorQiCTw5OD/bkgNyZ6cf3QaOuctYd/AmEa5kR3/QAW1Hnj/+L40Wj7IwV1Af\nAz0mTwCTk71UxYPvPJO8LOTdeWk4n7YdsS8lJ4oRWAKL/6FeJBh4oijGCWIRYGUV\nOz/qjSvYq37S6PCwih2MTpuVNwKBgQDSJgpqGdh0JEIIZRu+t7HeNXrDZQOkiUj4\nBL7+FT96JpoKx51I30cUQzU8OrWpugzgFFZkN7yG/BVC7/jI9jycW4t9ztgXGuAx\nlh9Y2YihYwlygDe34PunTXgipiemPuldxOEUVUx5gJXA63nrWxQ431ya+MJ4EDTf\nBhzr7YZJLQKBgHV3QEigkT9gMMEAOp1R9TBTEbgjmOgEODxc3eEw9fR6+mk1GMae\n0aF6kdiqm3/1JjVgIxO1TQwiTz+yW1+L8vPm1CfEttfOxJQLRrXCQcR9Zs75Pw4h\nrZw+0qkBlguRST00jQuj+ueACGsYAnELIj3rdyFPrSirSFUSG9g733UTAoGBAKrk\nAGgTqG+Z5JDLF+rZmqzmtHQcuv+cHFiEE4SvZrVAmtfVR9Qwra6OkMXvwDbLcxjt\nsOtCX+8tI2URnDBf/R3xW9fs0tDHLDVmrQslqvQCg3Y3ShgfvsVoPB+BGpEYa9Gy\n/o34Z34O0LjXRIfdwu4UxUvIquvT0gri/7Xjq+XpAoGADu0xU1XnzLFLWXXL1WRW\nJHi8AxHu1jlzHNIWMf/wuSk9V3fA0bz/4BVnTWtt6GZyuaN+i1NTPLrXPPs+d9KC\nRBZ5Cm8OAEaBVBjmW0unnT1StdLAOXGx2PQhegcyh8Y53vrBtxVnDhSOdczyaRTp\nXiIrghYzXkqvlelPLuNgNOM=\n-----END PRIVATE KEY-----\n
+
+  database:
+    migration:
+      admin-enabled: true
+      host: QALVDB01.C1.STG
+      port: 1433
+      users:
+        admin:
+          username: deploy_user
+          password: Password23
+        app:
+          password: Password23
+        app-ro:
+          password: Password23
+        manager:
+          password: Password23
+
+spring:
+  liquibase:
+    enabled: true
+
+logging.level:
+  #For some strange reason, this doesn't seem to fall through to child packages
+  #Must be explicit about each package you wish to log at a level other than
+  #The roots
+  com.prosper.hub.audio: INFO
+  #OkHttp: DEBUG
+  org.springframework.security: DEBUG
