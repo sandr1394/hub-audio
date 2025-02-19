@@ -9,5 +9,6 @@ Application for audio files retrieval from Google Cloud storage and replaying th
 
 ### Backend
  - Java
+ - Spring Boot
  - Oracle database
  - Google Cloud Storage
